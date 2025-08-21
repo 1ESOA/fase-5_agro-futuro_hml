@@ -3,90 +3,324 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agricultura do Futuro - ODS 2</title>
+    <title>Agricultura do Futuro - Inovação e Sustentabilidade</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Header -->
     <header>
         <div class="container">
-            <h1>Agricultura do Futuro</h1>
+            <div class="header-content">
+                <h1>Agricultura do Futuro</h1>
+                
+                <!-- Menu Hamburguer -->
+                <div class="menu-toggle" id="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
 
-            <!-- Botão Menu Hamburguer -->
-            <div class="menu-toggle" id="menu-toggle">
-                ☰
+                <nav id="nav">
+                    <ul>
+                        <li><a href="#hero">Início</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#tecnologias">Tecnologias</a></li>
+                        <li><a href="#galeria">Galeria</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </nav>
             </div>
-
-            <nav id="nav">
-                <ul>
-                    <li><a href="#inicio">Início</a></li>
-                    <li><a href="#ods2">ODS 2</a></li>
-                    <li><a href="#hidroponia">Hidroponia</a></li>
-                    <li><a href="#superalimentos">Superalimentos</a></li>
-                    <li><a href="#sustentabilidade">Sustentabilidade</a></li>
-                </ul>
-            </nav>
         </div>
     </header>
 
-    <section id="inicio" class="hero">
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-background"></div>
         <div class="container">
-            <h2>Transformando a Produção de Alimentos</h2>
-            <p>Explore como a tecnologia pode revolucionar a agricultura para acabar com a fome mundial.</p>
+            <div class="hero-content">
+                <h2>Transformando a Agricultura com Tecnologia</h2>
+                <p>Descubra como a inovação e a sustentabilidade estão revolucionando a produção de alimentos para um futuro melhor</p>
+                <a href="#sobre" class="btn-primary">Saiba Mais</a>
+            </div>
         </div>
     </section>
 
-    <section id="ods2" class="section">
-        <div class="container">
-            <h2>ODS 2: Fome Zero e Agricultura Sustentável</h2>
-            <p>A ODS 2 busca acabar com a fome, alcançar a segurança alimentar, melhorar a nutrição e promover a agricultura sustentável até 2030.</p>
-            <p>Pessoas que passam fome no mundo: 828 milhões</p>
-            <p>Pessoas que não conseguem pagar uma dieta saudável: 3 bilhões</p>
-        </div>
-    </section>
+    <main>
+        <!-- Seção Sobre -->
+        <section id="sobre" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Sobre a Agricultura do Futuro</h2>
+                    <p>A agricultura do futuro combina tecnologia avançada com práticas sustentáveis para criar sistemas alimentares mais eficientes, produtivos e ambientalmente responsáveis.</p>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>ODS 2: Fome Zero e Agricultura Sustentável</h3>
+                        <p>A ODS 2 busca acabar com a fome, alcançar a segurança alimentar, melhorar a nutrição e promover a agricultura sustentável até 2030. Com 828 milhões de pessoas passando fome no mundo e 3 bilhões que não conseguem pagar uma dieta saudável, a inovação tecnológica na agricultura é fundamental.</p>
+                        
+                        <div class="stats">
+                            <div class="stat-item">
+                                <span class="stat-number">828M</span>
+                                <span class="stat-label">Pessoas em situação de fome</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">3B</span>
+                                <span class="stat-label">Sem acesso a dieta saudável</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <img src="images/sustentabilidade_agricultura.jpg" alt="Agricultura Sustentável">
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <section id="hidroponia" class="section bg-light">
-        <div class="container">
-            <h2>Hortas Hidropônicas Inteligentes</h2>
-            <p>Sistemas que cultivam plantas sem solo, usando soluções nutritivas balanceadas para produzir alimentos frescos e saudáveis de forma sustentável.</p>
-            <ul>
-                <li>Economia de água: 90% menos</li>
-                <li>Crescimento mais rápido: até 50%</li>
-                <li>Livre de pesticidas</li>
-            </ul>
-        </div>
-    </section>
+        <!-- Seção Tecnologias -->
+        <section id="tecnologias" class="section bg-light">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Tecnologias Inovadoras</h2>
+                    <p>Conheça as principais tecnologias que estão transformando a agricultura moderna</p>
+                </div>
+                <div class="tech-grid">
+                    <div class="tech-card">
+                        <div class="tech-icon">🚁</div>
+                        <h3>Drones Agrícolas</h3>
+                        <p>Monitoramento aéreo, pulverização precisa e mapeamento de culturas com tecnologia de ponta</p>
+                        <ul>
+                            <li>Redução de 30% no uso de defensivos</li>
+                            <li>Cobertura de grandes áreas rapidamente</li>
+                            <li>Análise em tempo real das culturas</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tech-card">
+                        <div class="tech-icon">📡</div>
+                        <h3>Sensores IoT</h3>
+                        <p>Monitoramento inteligente de solo, clima e plantas para otimização da produção</p>
+                        <ul>
+                            <li>Dados em tempo real</li>
+                            <li>Automação de processos</li>
+                            <li>Economia de recursos</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tech-card">
+                        <div class="tech-icon">💧</div>
+                        <h3>Irrigação Inteligente</h3>
+                        <p>Sistemas automatizados que otimizam o uso da água baseado nas necessidades das plantas</p>
+                        <ul>
+                            <li>Economia de até 50% de água</li>
+                            <li>Irrigação por demanda</li>
+                            <li>Controle remoto via app</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tech-card">
+                        <div class="tech-icon">🌱</div>
+                        <h3>Hidroponia</h3>
+                        <p>Cultivo sem solo usando soluções nutritivas balanceadas para máxima eficiência</p>
+                        <ul>
+                            <li>90% menos água que cultivo tradicional</li>
+                            <li>Crescimento 50% mais rápido</li>
+                            <li>Livre de pesticidas</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tech-card">
+                        <div class="tech-icon">⚡</div>
+                        <h3>Energia Limpa</h3>
+                        <p>Sistemas solares e eólicos para alimentar equipamentos agrícolas sustentáveis</p>
+                        <ul>
+                            <li>Redução de custos operacionais</li>
+                            <li>Zero emissões de carbono</li>
+                            <li>Autonomia energética</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tech-card">
+                        <div class="tech-icon">🤖</div>
+                        <h3>Agricultura de Precisão</h3>
+                        <p>Uso de GPS, sensores e IA para otimizar cada metro quadrado da propriedade</p>
+                        <ul>
+                            <li>Aplicação localizada de insumos</li>
+                            <li>Aumento da produtividade</li>
+                            <li>Redução de desperdícios</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <section id="superalimentos" class="section">
-        <div class="container">
-            <h2>Superalimentos: Alimentos que Transformam Vidas</h2>
-            <p>Ingredientes excepcionalmente ricos em nutrientes que podem combater a má-nutrição e promover saúde e bem-estar para todos.</p>
-            <ul>
-                <li>Quinoa: Proteína completa, rico em fibras</li>
-                <li>Spirulina: Antioxidante poderoso, rica em proteínas</li>
-                <li>Chia: Ômega-3 vegetal, fibras solúveis</li>
-            </ul>
-        </div>
-    </section>
+        <!-- Seção Galeria -->
+        <section id="galeria" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Galeria de Inovações</h2>
+                    <p>Veja exemplos reais da agricultura tecnológica em ação</p>
+                </div>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="images/drone_agricultura.jpg" alt="Drone pulverizando plantação">
+                        <div class="gallery-overlay">
+                            <h3>Drones em Ação</h3>
+                            <p>Pulverização precisa e monitoramento aéreo</p>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item">
+                        <img src="images/tecnologia_agricultura.jpg" alt="Estufa inteligente">
+                        <div class="gallery-overlay">
+                            <h3>Estufas Inteligentes</h3>
+                            <p>Ambiente controlado para máxima produtividade</p>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item">
+                        <img src="images/inovacao_agricultura.webp" alt="Colheitadeira moderna">
+                        <div class="gallery-overlay">
+                            <h3>Colheitadeiras Modernas</h3>
+                            <p>Tecnologia GPS e automação avançada</p>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item">
+                        <img src="images/aplicacoes_agro.jpg" alt="Agricultura de precisão">
+                        <div class="gallery-overlay">
+                            <h3>Agricultura de Precisão</h3>
+                            <p>Análise de dados para otimização</p>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item">
+                        <img src="images/drone_pulverizacao.jpg" alt="Sistema de irrigação">
+                        <div class="gallery-overlay">
+                            <h3>Irrigação Automatizada</h3>
+                            <p>Sistemas inteligentes de distribuição de água</p>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item">
+                        <img src="images/sustentabilidade_agricultura.jpg" alt="Energia solar na agricultura">
+                        <div class="gallery-overlay">
+                            <h3>Energia Sustentável</h3>
+                            <p>Painéis solares alimentando sistemas agrícolas</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <section id="sustentabilidade" class="section bg-light">
-        <div class="container">
-            <h2>Agricultura Sustentável para o Futuro</h2>
-            <p>Criando sistemas alimentares que nutrem pessoas e planeta, garantindo recursos para as próximas gerações.</p>
-            <ul>
-                <li>Preservação Ambiental</li>
-                <li>Economia Circular</li>
-                <li>Energia Limpa</li>
-                <li>Impacto Social</li>
-            </ul>
-        </div>
-    </section>
+        <!-- Seção Contato -->
+        <section id="contato" class="section bg-light">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Entre em Contato</h2>
+                    <p>Quer saber mais sobre agricultura do futuro? Envie sua mensagem!</p>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Fale Conosco</h3>
+                        <p>Estamos aqui para responder suas dúvidas sobre tecnologias agrícolas e sustentabilidade.</p>
+                        
+                        <div class="contact-item">
+                            <span class="contact-icon">📧</span>
+                            <span>contato@agriculturafuturo.com</span>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <span class="contact-icon">📱</span>
+                            <span>(11) 99999-9999</span>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <span>São Paulo, SP - Brasil</span>
+                        </div>
+                    </div>
+                    
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <label for="nome">Nome Completo</label>
+                            <input type="text" id="nome" name="nome" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="assunto">Assunto</label>
+                            <select id="assunto" name="assunto" required>
+                                <option value="">Selecione um assunto</option>
+                                <option value="tecnologias">Tecnologias Agrícolas</option>
+                                <option value="sustentabilidade">Sustentabilidade</option>
+                                <option value="consultoria">Consultoria</option>
+                                <option value="parceria">Parcerias</option>
+                                <option value="outros">Outros</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn-primary">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
 
+    <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2024 Agricultura do Futuro. Projeto educacional.</p>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Agricultura do Futuro</h3>
+                    <p>Inovação e sustentabilidade para um mundo melhor</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#tecnologias">Tecnologias</a></li>
+                        <li><a href="#galeria">Galeria</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Redes Sociais</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">📘</a>
+                        <a href="#" aria-label="Instagram">📷</a>
+                        <a href="#" aria-label="Twitter">🐦</a>
+                        <a href="#" aria-label="LinkedIn">💼</a>
+                        <a href="#" aria-label="YouTube">📺</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Agricultura do Futuro. Todos os direitos reservados. | Projeto educacional</p>
+            </div>
         </div>
     </footer>
+
+    <!-- Botão Voltar ao Topo -->
+    <button id="back-to-top" class="back-to-top" aria-label="Voltar ao topo">
+        ↑
+    </button>
 
     <script src="js/script.js"></script>
 </body>
 </html>
+
